@@ -1,0 +1,1 @@
+User requested a corporate website with 4 industries. Initially planned to use DALL·E images but switched to Unsplash due to image generation limit. Provided full HTML design using PicoCSS, with sections for each industry, hero banner, and subscription form.

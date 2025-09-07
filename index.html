@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hawaz Group</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="hawaz_logo.png" alt="The Hawaz Group" style="width:10rem;">
+                <!-- <span class="logo-text">NexCorp</span> -->
+                <div class="logo-pulse"></div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li class="dropdown">
+                    <a href="#services" class="nav-link dropdown-toggle">Services <span class="dropdown-arrow"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="dynamics.html" class="dropdown-link">Aviation</a></li>
+                        <li><a href="estate.html" class="dropdown-link">Housing & Estates</a></li>
+                        <li><a href="agric.html" class="dropdown-link">Agricultural Services</a></li>
+                        <li><a href="oilngas.html" class="dropdown-link">Oil & Gas</a></li>
+                        <li><a href="logistics.html" class="dropdown-link">Logistics</a></li>
+                    </ul>
+                </li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="management.html" class="nav-link">Management</a></li>
+                <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Innovation.</span>
+                    <span class="title-line">Excellence.</span>
+                    <!-- <span class="title-line">Results.</span> -->
+                </h1>
+                <p class="hero-subtitle">We are a diversified group with subsidiaries across multiple sectors</p>
+                <div class="cta-buttons">
+                    <a class="btn primary-btn" href="#contact" >Get Started</a>
+                    <a class="btn secondary-btn" href="#about">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="geometric-shape shape-1"></div>
+                <div class="geometric-shape shape-2"></div>
+                <div class="geometric-shape shape-3"></div>
+                <div class="floating-elements">
+                    <div class="float-element"></div>
+                    <div class="float-element"></div>
+                    <div class="float-element"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <!-- <p class="section-subtitle">Comprehensive solutions for modern businesses</p> -->
+            </div>
+
+            <div class="services-grid" >
+                
+                <div class="service-card" data-service="tech">
+                    <a href="dynamics.html" style="text-decoration: none;">
+                    <div class="service-icon">
+                        <div class="icon-shape tech-icon"></div>
+                    </div>
+                    <h3>Hawaz International Dynamics Ltd</h3>
+                    <p>Agent of Foreign Airlines, Tours & Travels and Aviation Consultancy</p>
+                    <!-- <div class="service-metric">
+                        <span class="metric-number">95%</span>
+                        <span class="metric-label">Success Rate</span>
+                    </div> -->
+                    </a>
+                </div>
+
+                <div class="service-card" data-service="data">
+                    <a href="estate.html" style="text-decoration: none;">
+                    <div class="service-icon">
+                        <div class="icon-shape data-icon"></div>
+                    </div>
+                    <h3>Hawaz 774 Estates and Diasporan Villa Nig. Ltd</h3>
+                    <p>Promoting Affordable Housing</p>
+                    <!-- <div class="service-metric">
+                        <span class="metric-number">500+</span>
+                        <span class="metric-label">Projects</span>
+                    </div> -->
+                    </a>
+                </div>
+
+                <div class="service-card" data-service="cloud">
+                    <a href="agric.html" style="text-decoration: none;">
+                    <div class="service-icon">
+                        <div class="icon-shape cloud-icon"></div>
+                    </div>
+                    <h3>Hawaz Agricultural Services Ltd</h3>
+                    <p>Dealers in Agricultural Equipment & Produce, Livestock & Export</p>
+                    <!-- <div class="service-metric">
+                        <span class="metric-number">99.9%</span>
+                        <span class="metric-label">Uptime</span>
+                    </div> -->
+                    </a>
+                </div>
+
+                <div class="service-card" data-service="security">
+                    <a href="oilngas.html" style="text-decoration: none;">
+                    <div class="service-icon">
+                        <div class="icon-shape security-icon"></div>
+                    </div>
+                    <h3>Hawaz Oil & Gas Services Ltd</h3>
+                    <p>Energy Supplier to Industries and Marketing of Oil and CNG</p>
+                    <!-- <div class="service-metric">
+                        <span class="metric-number">24/7</span>
+                        <span class="metric-label">Monitoring</span>
+                    </div> -->
+                    </a>
+                </div>
+
+                <div class="service-card" data-service="security">
+                    <a href="logistics.html" style="text-decoration: none;">
+                    <div class="service-icon">
+                        <div class="icon-shape security-icon"></div>
+                    </div>
+                    <h3>Hawaz and Company Nig. Ltd</h3>
+                    <p>We handle with care</p>
+                    <!-- <div class="service-metric">
+                        <span class="metric-number">24/7</span>
+                        <span class="metric-label">Monitoring</span>
+                    </div> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <!-- <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="1000">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="2500">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Team Members</div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Hawaz Group</h2>
+                    <p>The Hawaz Group is a multi-purpose company registered to carry out business activities in the areas of Maritime, Aviation, Agricultural
+                    Services, Import and Export activities, Estate Development, Oil and Gas, Logistics, and Consultancy Services.<br>The company was officially incorporated by the Corporate Affairs Commission (CAC) on 23rd July 1998 with RC Number
+                    338839.The Hawaz Group, comprises of five (5)
+                    specialized companies with interests across key sectors of the Nigerian economy.</p>
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <div class="feature-icon"></div>
+                            <span>Industry-leading expertise</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"></div>
+                            <span>Cutting-edge technology</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"></div>
+                            <span>24/7 dedicated support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-element element-1"></div>
+                    <div class="visual-element element-2"></div>
+                    <div class="visual-element element-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <!-- <p>Ready to transform your business? Let's discuss your project and create something amazing together.</p> -->
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon email-icon"></div>
+                            <div class="method-details">
+                                <h4>Email</h4>
+                                <p>hawazng01@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon phone-icon"></div>
+                            <div class="method-details">
+                                <h4>Phone</h4>
+                                <p>+234 (803) 626 7415</p>
+                                <p>+234 (805) 228 1583</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="user_name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="user_email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="hawaz_logo-removebg-preview.png" alt="" style="width: 12em;">
+                    <!-- <p>Innovating the future, one solution at a time.</p> -->
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Services</h4>
+                        <a href="dynamics.html">Aviation</a>
+                        <a href="estate.html">Housing & Real Estate</a>
+                        <a href="agric.html">Agriculture</a>
+                        <a href="oilngas.html">Oil & Gas</a>
+                        <a href="logistics.html">Logistics</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <a href="index.html#about">About</a>
+                        <a href="management.html">Management</a>
+                        <!-- <a href="#">Blog</a> -->
+                        <a href="index.html#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Hawaz Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        emailjs.init('D5XIsDGLFl1xUYUL4');
+
+        const contactForm = document.getElementById('contact-form');
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const formData = new FormData(contactForm);
+            const name = formData.get('user_name');
+            const email = formData.get('user_email');
+            const message = formData.get('message');
+
+            const emailContent = `
+                New Contact Form Submission:
+                
+                Name: ${name}
+                Email: ${email}
+                Message: ${message}
+            `;
+
+            emailjs.send("service_z9t9ijm", "template_mt7gvrd", {
+                from_name: name,
+                from_email: email,
+                message: emailContent,
+                to_email: "damilolahafix@gmail.com"
+            })
+            .then(function(response) {
+                alert('Thank you for choosing The Hawaz Group');
+                contactForm.reset();
+            }, function(error) {
+                alert('Failed to send message. Please try again.');
+                console.error('EmailJS Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>
